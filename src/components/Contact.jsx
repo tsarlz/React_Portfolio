@@ -72,11 +72,8 @@ export const Contact = () => {
         </div>
         <div className="text-white grid gap-x-6 gap-y-12 place-content-center grid-cols-2 sm:grid-cols-4 max-w-[1000px] mx-auto mb-20">
           {locs.map(({ id, icon, text, href }) => (
-            <a href={href} target="_blank" className=" cursor-pointer">
-              <span
-                key={id}
-                className="flex flex-col items-center justify-center text-center mr-10"
-              >
+            <a key={id} href={href} target="_blank" className=" cursor-pointer">
+              <span className="flex flex-col items-center justify-center text-center mr-10">
                 {icon}
                 <div className="mt-4 text-lg font-medium">{text}</div>
               </span>
@@ -120,11 +117,8 @@ export const Contact = () => {
           </h3>
           <div className="text-white grid gap-x-6 gap-y-12 place-content-center grid-cols-2 sm:grid-cols-4 max-w-[1000px] mx-auto mt-10">
             {socials.map(({ id, icon, text, href }) => (
-              <a href={href} target="_blank">
-                <span
-                  key={id}
-                  className="flex flex-col items-center justify-center text-center mr-10"
-                >
+              <a key={id} href={href} target="_blank">
+                <span className="flex flex-col items-center justify-center text-center mr-10">
                   {icon}
                   <div className="mt-4 text-lg font-medium">{text}</div>
                 </span>

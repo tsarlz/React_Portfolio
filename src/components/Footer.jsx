@@ -25,7 +25,7 @@ export const Footer = () => {
       href: 'https://www.linkedin.com/in/charles-lester-radores-54657a292/',
     },
     {
-      id: 4,
+      id: 5,
       icon: <FaGithub size={30} />,
       href: 'https://www.linkedin.com/in/charles-lester-radores-54657a292/',
     },
