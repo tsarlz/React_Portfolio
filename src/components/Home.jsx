@@ -10,8 +10,8 @@ export const Home = () => {
       className="bg-gradient-to-b from-black to-gray-800 text-gray-500"
     >
       <div className="flex justify-center items-center sm:h-screen h-auto md:ml-10 md:mr-10 pt-10 sm:pt-0">
-        <div className="flex flex-col  items-center max-w-[1200px] m-auto md:flex-row">
-          <div className="  text-white sm:max-w-xl max-w-sm mb-16 md:mb-0">
+        <div className="flex flex-col   items-center max-w-[1200px] m-auto md:flex-row">
+          <div className="  text-white sm:max-w-xl max-w-sm mb-16 md:mb-0 me-10">
             <p className="sm:text-2xl text-sm text-gray-100 mb-3">
               Hi, It's me,
             </p>
@@ -43,7 +43,7 @@ export const Home = () => {
             </Link>
           </div>
           <div
-            className="ml-10 bg-blue-500 object-cover bg-center bg-cover  h-[340px] w-[280px]  md:w-[285px] rounded-2xl mx-auto sm:mb-16 mb-10"
+            className=" bg-blue-500 object-cover bg-center bg-cover  h-[340px] w-[280px]  md:w-[285px] rounded-2xl mx-auto sm:mb-0 mb-16"
             style={{ backgroundImage: `url(${HeroIMG})` }}
           ></div>
         </div>
