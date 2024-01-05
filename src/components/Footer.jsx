@@ -22,27 +22,29 @@ export const Footer = () => {
   const socials = [
     {
       id: 1,
-      icon: <FaFacebookSquare size={iconSize} />,
+      icon: (
+        <FaFacebookSquare className=" hover:text-cyan-500" size={iconSize} />
+      ),
       href: 'https://www.facebook.com/charleslester.radores.9',
     },
     {
       id: 2,
-      icon: <FaInstagram size={iconSize} />,
+      icon: <FaInstagram className=" hover:text-cyan-500" size={iconSize} />,
       href: 'https://www.instagram.com/tsarls_/',
     },
     {
       id: 3,
-      icon: <FaXTwitter size={iconSize} />,
+      icon: <FaXTwitter className=" hover:text-cyan-500" size={iconSize} />,
       href: 'https://twitter.com/Tsarls_1',
     },
     {
       id: 4,
-      icon: <IoLogoLinkedin size={iconSize} />,
+      icon: <IoLogoLinkedin className=" hover:text-cyan-500" size={iconSize} />,
       href: 'https://www.linkedin.com/in/charles-lester-radores-54657a292/',
     },
     {
       id: 5,
-      icon: <FaGithub size={iconSize} />,
+      icon: <FaGithub className=" hover:text-cyan-500" size={iconSize} />,
       href: 'https://www.linkedin.com/in/charles-lester-radores-54657a292/',
     },
   ];
