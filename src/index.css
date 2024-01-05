@@ -12,3 +12,11 @@
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
+
+.active-link {
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}

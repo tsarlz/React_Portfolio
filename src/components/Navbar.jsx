@@ -27,7 +27,7 @@ export const Navbar = () => {
     },
   ];
   return (
-    <div className="  bg-black top-0 left-0 right-0 fixed ">
+    <div className="  bg-black top-0 left-0 right-0 fixed z-50 ">
       <div className="flex justify-between items-center max-w-[1200px] m-auto h-20">
         <div>
           <h1 className="text-4xl font-bold text-white font-signature">
@@ -40,7 +40,13 @@ export const Navbar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
             >
-              <Link to={link} smooth duration={500}>
+              <Link
+                to={link}
+                smooth
+                duration={500}
+                spy={true}
+                activeClass="active-link"
+              >
                 {link}
               </Link>
             </li>

@@ -107,7 +107,7 @@ export const Contact = () => {
             ></textarea>
             <button className=" rounded-md py-2 mt-10 text-white text-xl font-bold flex items-center justify-center  bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer group">
               Send
-              <span className="group-hover:rotate-90 duration-300">
+              <span className="group-hover:rotate-45 duration-300">
                 <IoIosSend size={25} className="ml-1" />
               </span>
             </button>
