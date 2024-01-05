@@ -66,7 +66,14 @@ export const Navbar = () => {
                 key={id}
                 className="px-4 cursor-pointer capitalize font-medium text-gray-500 py-6"
               >
-                <Link to={link} smooth duration={500}>
+                <Link
+                  onClick={() => setNav(!nav)}
+                  to={link}
+                  smooth
+                  duration={500}
+                  spy={true}
+                  activeClass="active-link"
+                >
                   {link}
                 </Link>
               </li>

@@ -70,10 +70,10 @@ export const Contact = () => {
             Submit the form below to get in touch with me
           </p>
         </div>
-        <div className="text-white grid gap-x-6 gap-y-12 place-content-center grid-cols-2 sm:grid-cols-4 max-w-[1000px] mx-auto mb-20">
+        <div className="text-white grid gap-x-6 gap-y-12 grid-cols-2 sm:grid-cols-4 max-w-[1000px] mx-auto mb-20">
           {locs.map(({ id, icon, text, href }) => (
             <a key={id} href={href} target="_blank" className=" cursor-pointer">
-              <span className="flex flex-col items-center justify-center text-center mr-10">
+              <span className="flex flex-col items-center justify-center text-center ">
                 {icon}
                 <div className="mt-4 text-lg font-medium">{text}</div>
               </span>
@@ -118,7 +118,7 @@ export const Contact = () => {
           <div className="text-white grid gap-x-6 gap-y-12 place-content-center grid-cols-2 sm:grid-cols-4 max-w-[1000px] mx-auto mt-10">
             {socials.map(({ id, icon, text, href }) => (
               <a key={id} href={href} target="_blank">
-                <span className="flex flex-col items-center justify-center text-center mr-10">
+                <span className="flex flex-col items-center justify-center text-center ">
                   {icon}
                   <div className="mt-4 text-lg font-medium">{text}</div>
                 </span>
