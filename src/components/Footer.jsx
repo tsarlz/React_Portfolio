@@ -53,7 +53,7 @@ export const Footer = () => {
       <div className="flex justify-between h-20 items-center max-w-7xl md:mx-auto mx-10 ">
         <p className="text-xs text-white">
           &#169; 2024 <span className=" font-signature">Tsarls</span> Built with
-          ReactJS, Tailwind CSS, and Netlify
+          ReactJS, Tailwind CSS, Getform and Netlify
         </p>
         <div className="flex text-white w-48 justify-between">
           {socials.map(({ id, icon, href }) => (
