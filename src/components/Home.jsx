@@ -61,7 +61,7 @@ export const Home = () => {
                 </button>
               </Link>
               <a
-                href="/resume.pdf"
+                href="/resume_CV.pdf"
                 download={true}
                 className="text-white w-fit sm:px-6 px-3 sm:py-3 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer group"
               >

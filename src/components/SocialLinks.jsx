@@ -50,7 +50,7 @@ export const SocialLinks = () => {
         </>
       ),
       style: 'rounded-br-md',
-      href: '/resume.pdf',
+      href: '/resume_CV.pdf',
       download: true,
     },
   ];
