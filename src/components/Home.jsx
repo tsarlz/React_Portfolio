@@ -29,7 +29,7 @@ export const Home = () => {
     >
       <div className="flex justify-center items-center sm:h-screen h-auto md:ml-10 md:mr-10 pt-10 sm:pt-0">
         <div className="flex flex-col   items-center max-w-[1200px] m-auto md:flex-row">
-          <div className="  text-white sm:max-w-xl max-w-sm mb-16 md:mb-0 md:me-10 mx-auto">
+          <div className="  text-white sm:max-w-xl max-w-sm mt-20 md:mt-0 mb-16 md:mb-0 md:me-10 mx-auto">
             <p className="sm:text-2xl text-sm text-gray-100 mb-3">
               Hi, It's me,
             </p>
