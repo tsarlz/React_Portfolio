@@ -43,7 +43,7 @@ export const Home = () => {
             </Link>
           </div>
           <div
-            className="bg-blue-500 object-cover bg-center bg-cover  h-[340px] w-[280px]  md:w-[285px] rounded-2xl mx-auto sm:mb-16 mb-10"
+            className="ml-10 bg-blue-500 object-cover bg-center bg-cover  h-[340px] w-[280px]  md:w-[285px] rounded-2xl mx-auto sm:mb-16 mb-10"
             style={{ backgroundImage: `url(${HeroIMG})` }}
           ></div>
         </div>
