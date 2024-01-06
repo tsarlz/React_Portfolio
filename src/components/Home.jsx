@@ -3,6 +3,7 @@ import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
 import HeroIMG from '../assets/hero-img.png';
 import { FaFileDownload } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
+import { IoIosArrowUp } from 'react-icons/io';
 
 export const Home = () => {
   const [iconSize, setIconSize] = useState({ firstIcon: 25, secondIcon: 20 });
@@ -21,6 +22,22 @@ export const Home = () => {
       window.addEventListener('resize', handleResize);
     };
   }, []);
+
+  const handleToTop = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
+
+  window.onscroll = function () {
+    if (
+      document.body.scrollTop > 100 ||
+      document.documentElement.scrollTop > 100
+    ) {
+      document.getElementById('arrowToTop').style.display = 'block';
+    } else {
+      document.getElementById('arrowToTop').style.display = 'none';
+    }
+  };
 
   return (
     <div
@@ -77,6 +94,13 @@ export const Home = () => {
             style={{ backgroundImage: `url(${HeroIMG})` }}
           ></div>
         </div>
+      </div>
+      <div
+        className=" fixed right-16 bottom-10 text-cyan-500 "
+        id="arrowToTop"
+        onClick={handleToTop}
+      >
+        <IoIosArrowUp size={40} />
       </div>
     </div>
   );
