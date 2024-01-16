@@ -64,7 +64,7 @@ export const Portfolio = () => {
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 "
     >
-      <div className="max-w-7xl  xl:m-auto mx-10  h-auto py-[6rem] ">
+      <div className="max-w-7xl  xl:m-auto mx-10  h-auto py-20 ">
         <div>
           <p className="sm:text-4xl text-2xl font-bold inline border-b-4 border-gray-500 text-white ">
             Portfolio

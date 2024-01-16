@@ -81,7 +81,7 @@ export const Experience = () => {
   ];
   return (
     <div name="experience" className="bg-gradient-to-b from-black to-gray-800 ">
-      <div className="max-w-7xl m-auto h-auto py-[6rem] xl:m-auto mx-10">
+      <div className="max-w-7xl m-auto h-auto py-20 xl:m-auto mx-10">
         <div className="text-white">
           <p className="sm:text-4xl text-2xl font-bold inline border-b-4 border-gray-500 text-white">
             Experience
