@@ -1,10 +1,8 @@
-import React from 'react';
-
 export const About = () => {
   return (
     <div
       name="about"
-      className="bg-gradient-to-b from-black to-gray-800 text-white "
+      className="snap-center bg-gradient-to-b from-black to-gray-800 text-white "
     >
       <div className="max-w-7xl xl:m-auto mx-10   flex flex-col justify-center h-[100vh]">
         <div className="pb-8">

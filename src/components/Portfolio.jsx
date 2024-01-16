@@ -6,6 +6,7 @@ import CineZone from '../assets/4.png';
 import KodeCamp from '../assets/5.png';
 import KodeLedger from '../assets/6.png';
 import KodeNews from '../assets/7.png';
+import KodeCenter from '../assets/8.png';
 
 export const Portfolio = () => {
   const portfolios = [
@@ -51,6 +52,11 @@ export const Portfolio = () => {
       page: 'https://kodeknews.netlify.app',
       git: 'https://github.com/CLAradores/KodeNews.git',
     },
+    {
+      id: 8,
+      src: KodeCenter,
+      git: 'https://github.com/CLAradores/Capstone_Project.git',
+    },
   ];
   return (
     <div
@@ -58,7 +64,7 @@ export const Portfolio = () => {
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 "
     >
-      <div className="max-w-7xl  xl:m-auto mx-10  h-auto py-20 ">
+      <div className="max-w-7xl  xl:m-auto mx-10  h-auto py-[6rem] ">
         <div>
           <p className="sm:text-4xl text-2xl font-bold inline border-b-4 border-gray-500 text-white ">
             Portfolio
@@ -77,13 +83,15 @@ export const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105 cursor-pointer "
               />
               <div className="text-white flex justify-center items-center">
-                <a
-                  href={page}
-                  className="w-1/2 px-6 my-3 m-4 duration-200 hover:scale-105 text-center "
-                  target="_blank"
-                >
-                  Demo
-                </a>
+                {id !== 8 && (
+                  <a
+                    href={page}
+                    className="w-1/2 px-6 my-3 m-4 duration-200 hover:scale-105 text-center "
+                    target="_blank"
+                  >
+                    Demo
+                  </a>
+                )}
                 <a
                   href={git}
                   className="w-1/2 px-6 my-3 m-4 duration-200 hover:scale-105 text-center"

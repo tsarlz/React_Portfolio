@@ -42,7 +42,7 @@ export const Home = () => {
   return (
     <div
       name="home"
-      className="bg-gradient-to-b from-black to-gray-800 text-gray-500"
+      className="snap-center bg-gradient-to-b from-black to-gray-800 text-gray-500"
     >
       <div className="flex justify-center items-center sm:h-screen h-auto md:ml-10 md:mr-10 pt-10 sm:pt-0">
         <div className="flex flex-col   items-center max-w-[1200px] m-auto md:flex-row">
