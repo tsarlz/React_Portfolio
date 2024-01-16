@@ -91,7 +91,7 @@ export const Experience = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2  sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0 text-white">
+        <div className="w-full grid grid-cols-2  sm:grid-cols-4 gap-8 text-center py-8 px-5 sm:px-0 text-white">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
