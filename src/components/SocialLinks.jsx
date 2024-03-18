@@ -1,7 +1,7 @@
-import React from 'react';
-import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
-import { FiMail } from 'react-icons/fi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import React from "react";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 export const SocialLinks = () => {
   const links = [
@@ -12,8 +12,8 @@ export const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      style: 'rounded-tr-md',
-      href: 'https://www.linkedin.com/in/charles-lester-radores-54657a292/',
+      style: "rounded-tr-md",
+      href: "https://www.linkedin.com/in/charles-lester-radores-54657a292/",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ export const SocialLinks = () => {
           Facebook <FaFacebook size={30} />
         </>
       ),
-      href: 'https://www.facebook.com/charleslester.radores.9',
+      href: "https://www.facebook.com/charleslester.radores.9",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ export const SocialLinks = () => {
           Github <FaGithub size={30} />
         </>
       ),
-      href: 'https://github.com/CLAradores',
+      href: "https://github.com/CLAradores",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ export const SocialLinks = () => {
           Mail <FiMail size={30} />
         </>
       ),
-      href: 'mailto:charleslester.official@gmail.com',
+      href: "mailto:charleslester.official@gmail.com",
     },
     {
       id: 5,
@@ -49,8 +49,8 @@ export const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      style: 'rounded-br-md',
-      href: '/resume_CV.pdf',
+      style: "rounded-br-md",
+      href: "/resume_CV.pdf",
       download: true,
     },
   ];
@@ -61,8 +61,8 @@ export const SocialLinks = () => {
           <li
             key={id}
             className={
-              'flex justify-between items-center w-40 h-1/4 px-4 py-2   ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300 bg-gray-500' +
-              ' ' +
+              "flex justify-between items-center w-40 h-1/4 px-4 py-2   ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300 bg-gray-500" +
+              " " +
               style
             }
           >
