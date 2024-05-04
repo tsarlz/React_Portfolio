@@ -50,7 +50,7 @@ export const SocialLinks = () => {
         </>
       ),
       style: "rounded-br-md",
-      href: "/resume_CV.pdf",
+      href: "/CharlesLesterRadores_resume.pdf",
       download: true,
     },
   ];

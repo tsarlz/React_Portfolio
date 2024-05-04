@@ -1,9 +1,9 @@
-import { Link } from 'react-scroll';
-import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
-import HeroIMG from '../assets/hero-img.png';
-import { FaFileDownload } from 'react-icons/fa';
-import { useState, useEffect } from 'react';
-import { IoIosArrowUp } from 'react-icons/io';
+import { Link } from "react-scroll";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import HeroIMG from "../assets/hero-img.png";
+import { FaFileDownload } from "react-icons/fa";
+import { useState, useEffect } from "react";
+import { IoIosArrowUp } from "react-icons/io";
 
 export const Home = () => {
   const [iconSize, setIconSize] = useState({ firstIcon: 25, secondIcon: 20 });
@@ -16,10 +16,10 @@ export const Home = () => {
 
   useEffect(() => {
     handleResize();
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.addEventListener('resize', handleResize);
+      window.addEventListener("resize", handleResize);
     };
   }, []);
 
@@ -33,9 +33,9 @@ export const Home = () => {
       document.body.scrollTop > 100 ||
       document.documentElement.scrollTop > 100
     ) {
-      document.getElementById('arrowToTop').style.display = 'block';
+      document.getElementById("arrowToTop").style.display = "block";
     } else {
-      document.getElementById('arrowToTop').style.display = 'none';
+      document.getElementById("arrowToTop").style.display = "none";
     }
   };
 
@@ -54,7 +54,7 @@ export const Home = () => {
               Charles Lester Radores
             </h1>
             <h3 className="sm:text-xl text-[1rem]  text-gray-100 font-bold mb-8">
-              Your Disciplined and Dedicated Junior Full-Stack Web Developer.
+              Your Disciplined and Dedicated Web Developer.
             </h3>
             <p className="text-gray-300 mb-6 font-medium">
               " Embracing the timeless wisdom of Stoic philosophy, I approach
@@ -78,7 +78,7 @@ export const Home = () => {
                 </button>
               </Link>
               <a
-                href="/resume_CV.pdf"
+                href="/CharlesLesterRadores_resume.pdf"
                 download={true}
                 className="text-white w-fit sm:px-6 px-3 sm:py-3 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer group"
               >
